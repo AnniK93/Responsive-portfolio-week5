@@ -81,6 +81,7 @@ h1, h2, h3, h4, h5, h6 {
     font-family: var(--heading-font-family);
     font-weight: bold;
     line-height: 80px;
+    margin: 20px 0px;
 }
 .content-container h2 {
     font-size: 18px;
@@ -126,6 +127,12 @@ max-width: 400px;
 display: block;
 margin: 0 auto;
  }
+
+ /*Contact*/
+ .contact h3 {
+   text-align: left;
+   padding: 0;
+ }
 @media (max-width: 900px) {
   .hero {
     padding: 80px 20px;
@@ -165,5 +172,8 @@ margin: 0 auto;
 }
 .works img {
   max-width: 400px;
+}
+.contact h3 {
+  text-align: center;
 }
 }
