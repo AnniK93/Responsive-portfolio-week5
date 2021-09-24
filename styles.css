@@ -4,6 +4,36 @@
 --branding-color: #6c63ff;
 --secondary-color: #f9f7fe;
 }
+/*Navbar*/
+nav {
+  display: inline;
+  padding: 20px;
+}
+.logo {
+  max-width: 150px;
+  max-height: 42px;
+}
+ul {
+  display: inline;
+  text-align: right;
+  padding: 0;
+  margin: 0;
+}
+.nav-links li{
+  display: inline;
+  margin-left: 10px;
+  line-height: 42px;
+}
+.nav-links a {
+  color: black;
+  text-decoration: none;
+  transition: all 100ms ease-in-out;
+}
+.nav-links a:hover,
+nav li.active a {
+  color: var(--branding-color);
+}
+
 
 /*Index*/
 container {
@@ -169,9 +199,10 @@ margin: 0 auto;
   }
 .works h1 {
   font-size: 30px;
+  padding: 20px;
 }
 .works img {
-  max-width: 400px;
+  max-width: 90%;
 }
 .contact h3 {
   text-align: center;
