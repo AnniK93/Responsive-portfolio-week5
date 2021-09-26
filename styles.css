@@ -1,8 +1,8 @@
 :root {
 --heading-font-family: "Playfair Display", serif;
 --default-font-family: "Poppins", sans-serif;
---branding-color: #2C5F2D;
---secondary-color: #97BC62FF;
+--branding-color: #6c63ff;
+--secondary-color: #f9f7fe;
 }
 /*Navbar*/
 nav {
@@ -102,6 +102,7 @@ h1, h2, h3, h4, h5, h6 {
 .project-description h2{
   text-align: left;
 }
+
 /*About me page*/
 .content-container {
   padding: 60px 20px;
@@ -157,6 +158,10 @@ max-width: 400px;
 display: block;
 margin: 0 auto;
  }
+ .dentist-image {
+   padding: 69px 0px;
+ }
+ 
  .contact-box h4 {
   font-size: 48px;
   font-weight: bold;
@@ -286,6 +291,13 @@ footer a:hover{
 }
 .works img {
   max-width: 90%;
+  margin-top: 30px;
+}
+.weather-image {
+  padding: 0px;
+}
+.dentist-image {
+  padding: 0px;
 }
 .contact-details h3,
 .contact-details p {
