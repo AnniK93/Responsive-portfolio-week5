@@ -4,8 +4,16 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Annika is a front-end developer based in Brighton, UK. Get in touch with her here.">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet"> 
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet"> 
+<script src="https://kit.fontawesome.com/e3ec2b914c.js" crossorigin="anonymous"></script>
     <title>Contact me</title>
 </head>
 <body>
@@ -13,33 +21,47 @@
     <nav class="d-flex justify-content-between">
       <img 
         src="images/logo.png"
-        class="logo d-none d-md-block">
+        class="logo d-none d-md-block"
+        alt="SheCodes logo">
       <img 
         src="images/logo-small.jpg" 
-        class="logo d-block d-md-none">
+        class="logo d-block d-md-none"
+        alt="SheCodes logo">
       <ul class="nav-links">
-        <li><a href="/">Home</a></li>
-        <li><a href="/about.html">About</a></li>
-        <li><a href="/works.html">Projects</a></li>
-        <li class="active"><a href="/contact.html">Contact</a></li>
+        <li><a href="/" title="Homepage">Home</a></li>
+        <li><a href="/about.html" title="About Annika">About</a></li>
+        <li><a href="/works.html" title="Annika's work">Projects</a></li>
+        <li class="active"><a href="/contact.html" title="Contact Annika">Contact</a></li>
       </ul>
     </nav>
   </header>
-    <div class="content-container contact container">
-    <h1>Let's get in touch!</h1>
+    <div class="content-container contact-details container">
+    <h1 class="mb-5">Let's get in touch!</h1>
     <h3>Email</h3>
     <p>
-   <a href="mailto:annika@mail.com">annika@mail.com</a>
+   <a href="mailto:annika@mail.com" title="Email Annika">annika@mail.com</a>
     </p>
     <h3>Twitter</h3>
     <p>
-    <a href="https://twitter.com/annikacodes">@annikacodes</a>
+    <a href="https://twitter.com/annikacodes" title="Annika Twitter">@annikacodes</a>
     </p>
     <h3>Instagram</h3>
     <p>
-        <a href="https://instagram.com/annikacodes">@annikacodes</a>
+        <a href="https://instagram.com/annikacodes" title="Annika Instagram">@annikacodes</a>
     </p>
-
-    </div>
+    <footer>
+        <div class="contact">
+        <a href="mailto:annika@mail.com" title="Email Annika">annika@mail.com</a>
+      <div class="social-links d-flex justify-content-center">
+      <a href="https://facebook.com" target="_blank"><i class="fab fa-facebook"></i></a>
+      <a href="https://instagram.com/annikacodes" target="_blank"><i class="fab fa-instagram"></i></a>
+      <a href="https://github.com/AnniK93" title="GitHub Profile" target="_blank"><i class="fab fa-github"></i></a>
+      </div>
+      </div>
+      <p class="description text-center mt-5">
+        This SheCodes project was coded by Annika, and it is <a href="https://github.com/AnniK93/Responsive-portfolio-week5" target="_blank">open-sourced.</a>
+      </p>
+      </footer>
+      </div>
 </body>
 </html>

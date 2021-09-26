@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Annika is a front-end developer based in Brighton, UK.">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="styles.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -13,22 +14,24 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet"> 
 <script src="https://kit.fontawesome.com/e3ec2b914c.js" crossorigin="anonymous"></script>
-    <title>SheCodes Homework</title>
+    <title>Front-end developer - Annika Klein</title>
 </head>
 <body>
   <header>
     <nav class="d-flex justify-content-between">
       <img 
         src="images/logo.png"
-        class="logo d-none d-md-block">
+        class="logo d-none d-md-block"
+        alt="SheCodes logo">
       <img 
         src="images/logo-small.jpg" 
-        class="logo d-block d-md-none">
+        class="logo d-block d-md-none"
+        alt="SheCodes logo">
       <ul class="nav-links">
-        <li class="active"><a href="/">Home</a></li>
-        <li><a href="/about.html">About</a></li>
-        <li><a href="/works.html">Projects</a></li>
-        <li><a href="/contact.html">Contact</a></li>
+        <li class="active"><a href="/" title="Homepage">Home</a></li>
+        <li><a href="/about.html" title="About Annika">About</a></li>
+        <li><a href="/works.html" title="Annika's work">Projects</a></li>
+        <li><a href="/contact.html" title="Contact Annika">Contact</a></li>
       </ul>
     </nav>
   </header>
@@ -44,13 +47,13 @@
    <div class="container">
        <div class="row mb-5">
         <div class="col d-none d-lg-block">
-          <img src="images/yogurt.png" class="img-fluid" alt="" />
+          <img src="images/yogurt.png" class="img-fluid" alt="Yogurt Project" />
         </div>
    <div class="col">
        <div class="project-description">
        <h2 class="mb-5">Yogurt Project</h2>
        <p class="mb-5 text-muted">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean. A small river named Duden flows by</p>
-        <a href="" class="btn btn-branding-outline"> Learn more </a>
+        <a href="works.html" class="btn btn-branding-outline"> Learn more </a>
     </div>
     </div>
     </div>
@@ -64,16 +67,16 @@
               they live in Bookmarksgrove right at the coast of the Semantics, a
               large language ocean. A small river named Duden flows by
             </p>
-            <a href="" class="btn btn-branding-outline"> Learn more </a>
+            <a href="works.html" class="btn btn-branding-outline"> Learn more </a>
           </div>
         </div>
         <div class="col d-none d-lg-block">
-          <img src="images/weather.png" class="img-fluid" alt="" />
+          <img src="images/weather.png" class="img-fluid" alt="Weather App Project" />
         </div>
       </div>
        <div class="row">
         <div class="col d-none d-lg-block">
-          <img src="images/dictionary.png" class="img-fluid" alt="" />
+          <img src="images/dictionary.png" class="img-fluid" alt="Dictionary Project" />
         </div>
         <div class="col">
           <div class="project-description">
@@ -84,28 +87,32 @@
               they live in Bookmarksgrove right at the coast of the Semantics, a
               large language ocean. A small river named Duden flows by
             </p>
-            <a href="" class="btn btn-branding-outline"> Learn more </a>
+            <a href="works.html" class="btn btn-branding-outline"> Learn more </a>
           </div>
         </div>
       </div>
       <footer>
+        <div class="contact">
         <div class="contact-box justify-content-between d-none d-md-flex">
           <div>
             <h4>Work enquiry</h4>
             <p class="text-muted">Let's work together</p>
           </div>
-          <div>
-          <a href="contact.html" class="btn btn-branding">Contact me</a>
+          <div class="contact-annika">
+          <a href="contact.html" class="btn btn-branding" title="Contact Annika">Contact me</a>
           </div>
         </div>
-        <a href="mailto:annika@mail.com">annika@mail.com</a>
+        <a href="mailto:annika@mail.com" title="Email Annika">annika@mail.com</a>
       <div class="social-links d-flex justify-content-center">
-      <a href="https://facebook.com"><i class="fab fa-facebook"></i></a>
-      <a href="https://instagram.com/annikacodes"><i class="fab fa-instagram"></i></a>
-      <a href="https://github.com/AnniK93"><i class="fab fa-github"></i></a>
+      <a href="https://facebook.com" target="_blank"><i class="fab fa-facebook"></i></a>
+      <a href="https://instagram.com/annikacodes" target="_blank"><i class="fab fa-instagram"></i></a>
+      <a href="https://github.com/AnniK93" title="GitHub Profile" target="_blank"><i class="fab fa-github"></i></a>
       </div>
+      </div>
+      <p class="description text-center mt-5">
+        This SheCodes project was coded by Annika, and it is <a href="https://github.com/AnniK93/Responsive-portfolio-week5" target="_blank">open-sourced.</a>
+      </p>
       </footer>
-    </div>
-    </div>
+      </div>
 </body>
 </html>

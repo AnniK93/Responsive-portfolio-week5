@@ -157,30 +157,47 @@ max-width: 400px;
 display: block;
 margin: 0 auto;
  }
+ .contact-box h4 {
+  font-size: 48px;
+  font-weight: bold;
+  margin: 0px;
+  line-height: 50px;
+  padding: 0px;
+}
 
  /*Contact*/
- .contact h3 {
+ .contact-details h3 {
    text-align: left;
    padding: 0;
  }
-
+ .contact-details p{
+   text-align: left;
+ }
+ .contact-details a {
+   color: black;
+   text-decoration: none;
+ }
+.contact-details a:hover{
+  color: var(--branding-color);
+}
  /*Footer*/
 footer {
   margin: 60px 0px;
 }
 
-footer a{
+.contact a{
   color: black;
   font-size: 24px;
   display: block;
   text-align: center;
   margin-top: 20px;
 }
-footer h4 {
+.contact-box h4 {
   font-size: 48px;
   font-weight: bold;
   margin: 0px;
-  line-height: 50px;
+  line-height: 64px;
+  padding: 0px;
 }
 footer .contact-box {
   background: var(--secondary-color);
@@ -190,10 +207,24 @@ footer .contact-box {
 }
 .contact-box p{
   margin: 0;
+  line-height: 64px;
 }
 footer a:hover{
   color:var(--branding-color);
   text-decoration: none;
+}
+.contact-annika .btn {
+    padding: 15px 30px;
+    background: var(--branding-color);
+    font-family: var(--default-font-family);
+    font-weight: bold;
+    color: white;
+    margin: 30px 0px;
+}
+
+.contact-annika .btn:hover {
+    background: var(--branding-color);
+    color: black;
 }
 .social-links {
   text-align: center;
@@ -211,6 +242,9 @@ footer a:hover{
 .social-links a:hover {
   color: white;
   background:var(--branding-color);
+}
+.description a {
+  color: black;
 }
 @media (max-width: 900px) {
   .hero {
@@ -253,7 +287,8 @@ footer a:hover{
 .works img {
   max-width: 90%;
 }
-.contact h3 {
+.contact-details h3,
+.contact-details p {
   text-align: center;
 }
 }
