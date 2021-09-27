@@ -32,6 +32,7 @@ ul {
 .nav-links a:hover,
 nav li.active a {
   color: var(--branding-color);
+  font-weight: bold;
 }
 
 
