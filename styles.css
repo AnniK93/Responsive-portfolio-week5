@@ -98,7 +98,7 @@ h1, h2, h3, h4, h5, h6 {
     color: white;
 }
 .project-description {
-  padding: 90px 40px;
+  padding: 40px;
 }
 .project-description h2{
   text-align: left;
@@ -158,6 +158,9 @@ h1, h2, h3, h4, h5, h6 {
 max-width: 400px;
 display: block;
 margin: 0 auto;
+ }
+ .works p {
+   text-align: center;
  }
  .dentist-image {
    padding: 69px 0px;
