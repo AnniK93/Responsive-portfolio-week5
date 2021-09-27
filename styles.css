@@ -304,4 +304,12 @@ footer a:hover{
 .contact-details p {
   text-align: center;
 }
+.content-container img {
+  max-width: 90%;
+}
+}
+@media (max-width: 350px) {
+  .nav-links a {
+    font-size: 12px;
+  }
 }
