@@ -1,8 +1,8 @@
 :root {
---heading-font-family: "Playfair Display", serif;
---default-font-family: "Poppins", sans-serif;
---branding-color: #295E68;
---secondary-color: #C5D6D9;
+  --heading-font-family: "Playfair Display", serif;
+  --default-font-family: "Poppins", sans-serif;
+  --branding-color: #295e68;
+  --secondary-color: #c5d6d9;
 }
 /*Navbar*/
 nav {
@@ -19,7 +19,7 @@ ul {
   padding: 0;
   margin: 0;
 }
-.nav-links li{
+.nav-links li {
   display: inline;
   margin-left: 10px;
   line-height: 42px;
@@ -35,10 +35,9 @@ nav li.active a {
   font-weight: bold;
 }
 
-
 /*Index*/
 container {
-    margin: 0px 100px;
+  margin: 0px 100px;
 }
 .hero {
   text-align: center;
@@ -46,42 +45,47 @@ container {
   background: var(--secondary-color);
 }
 .hero p {
-    font-size: 36px;
-    font-weight: bold;
-    font-family: var(--default-font-family);
+  font-size: 36px;
+  font-weight: bold;
+  font-family: var(--default-font-family);
 }
 
 .hero h1 {
-    font-size: 96px;
-    font-weight: bold;
+  font-size: 96px;
+  font-weight: bold;
 }
 
 .hero h2 {
-    font-size: 24px;
-    font-weight: bolder;
+  font-size: 24px;
+  font-weight: bolder;
 }
 h3 {
   text-align: center;
   padding: 60px;
 }
-h1, h2, h3, h4, h5, h6 {
-    font-family: var(--heading-font-family);
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--heading-font-family);
 }
 .button {
-    margin-top: 50px;
+  margin-top: 50px;
 }
 .btn {
-    padding: 15px 30px;
-    background: var(--branding-color);
-    font-family: var(--default-font-family);
-    font-weight: bold;
-    color: white;
-    margin: 30px 0px;
+  padding: 15px 30px;
+  background: var(--branding-color);
+  font-family: var(--default-font-family);
+  font-weight: bold;
+  color: white;
+  margin: 30px 0px;
 }
 
 .btn:hover {
-    background: var(--branding-color);
-    color: black;
+  background: var(--branding-color);
+  color: black;
 }
 
 .btn-branding-outline {
@@ -94,13 +98,13 @@ h1, h2, h3, h4, h5, h6 {
   padding: 15px 30px;
 }
 .btn-branding-outline:hover {
-    background: var(--branding-color);
-    color: white;
+  background: var(--branding-color);
+  color: white;
 }
 .project-description {
   padding: 40px;
 }
-.project-description h2{
+.project-description h2 {
   text-align: left;
 }
 
@@ -109,92 +113,97 @@ h1, h2, h3, h4, h5, h6 {
   padding: 60px 20px;
 }
 .content-container h1 {
-    font-size: 64px;
-    font-family: var(--heading-font-family);
-    font-weight: bold;
-    line-height: 80px;
-    margin: 20px 0px;
+  font-size: 64px;
+  font-family: var(--heading-font-family);
+  font-weight: bold;
+  line-height: 80px;
+  margin: 20px 0px;
 }
 .content-container h2 {
-    font-size: 18px;
-    font-weight: bold;
-    font-family: --default-font-family;
-    line-height: 1.2;
-    text-align: left;
+  font-size: 18px;
+  font-weight: bold;
+  font-family: --default-font-family;
+  line-height: 1.2;
+  text-align: left;
 }
 .content-container p {
-    font-size: 16px;
-    line-height: 30px;
+  font-size: 16px;
+  line-height: 30px;
 }
 .content-container img {
-    max-width: 300px;
-    border-radius: 10px;
-    display: block;
-    margin: 0 auto;
+  max-width: 300px;
+  border-radius: 10px;
+  display: block;
+  margin: 0 auto;
 }
 
 /*Projects*/
-.works h1, h2, h3 {
-   text-align: center;
- }
- .works h1 {
-   font-size: 50px;
-   padding: 100px;
- }
- .works h2 {
+.works h1,
+h2,
+h3 {
+  text-align: center;
+}
+.works h1 {
+  font-size: 50px;
+  padding: 100px;
+}
+.works h2 {
   font-size: 24px;
   line-height: 1.5;
   font-family: var(--default-font-family);
   margin-top: 10px;
   font-weight: bold;
- }
- .works h3 {
-   font-size: 14px;
-   padding: 10px;
-   font-family: var(--default-font-family);
-   color: #6c757d;
- }
- .works img {
-max-width: 400px;
-display: block;
-margin: 0 auto;
- }
- .works p {
-   text-align: center;
- }
- .dentist-image {
-   padding: 69px 0px;
- }
- 
- .contact-box h4 {
+}
+.works h3 {
+  font-size: 14px;
+  padding: 10px;
+  font-family: var(--default-font-family);
+  color: #6c757d;
+}
+.works img {
+  max-width: 400px;
+  display: block;
+  margin: 0 auto;
+}
+.works p {
+  text-align: center;
+}
+.dentist-image {
+  padding: 69px 0px;
+}
+
+.contact-box h4 {
   font-size: 48px;
   font-weight: bold;
   margin: 0px;
   line-height: 50px;
   padding: 0px;
 }
+.divider {
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+}
 
- /*Contact*/
- .contact-details h3 {
-   text-align: left;
-   padding: 0;
- }
- .contact-details p{
-   text-align: left;
- }
- .contact-details a {
-   color: black;
-   text-decoration: none;
- }
-.contact-details a:hover{
+/*Contact*/
+.contact-details h3 {
+  text-align: left;
+  padding: 0;
+}
+.contact-details p {
+  text-align: left;
+}
+.contact-details a {
+  color: black;
+  text-decoration: none;
+}
+.contact-details a:hover {
   color: var(--branding-color);
 }
- /*Footer*/
+/*Footer*/
 footer {
   margin: 60px 0px;
 }
 
-.contact a{
+.contact a {
   color: black;
   font-size: 24px;
   display: block;
@@ -214,35 +223,35 @@ footer .contact-box {
   border-radius: 10px;
   line-height: 70px;
 }
-.contact-box p{
+.contact-box p {
   margin: 0;
   line-height: 64px;
 }
-footer a:hover{
-  color:var(--branding-color);
+footer a:hover {
+  color: var(--branding-color);
   text-decoration: none;
 }
 .contact-annika .btn {
-    padding: 15px 30px;
-    background: var(--branding-color);
-    font-family: var(--default-font-family);
-    font-weight: bold;
-    color: white;
-    margin: 30px 0px;
+  padding: 15px 30px;
+  background: var(--branding-color);
+  font-family: var(--default-font-family);
+  font-weight: bold;
+  color: white;
+  margin: 30px 0px;
 }
 
 .contact-annika .btn:hover {
-    background: var(--branding-color);
-    color: black;
+  background: var(--branding-color);
+  color: black;
 }
 .social-links {
   text-align: center;
   margin: 24px 0;
 }
-.social-links a{
+.social-links a {
   margin: 0 20px;
-  color:var(--branding-color);
-  background:var(--secondary-color);
+  color: var(--branding-color);
+  background: var(--secondary-color);
   padding: 10px 14px;
   font-size: 20px;
   border-radius: 50%;
@@ -250,7 +259,7 @@ footer a:hover{
 }
 .social-links a:hover {
   color: white;
-  background:var(--branding-color);
+  background: var(--branding-color);
 }
 .description a {
   color: black;
@@ -289,27 +298,27 @@ footer a:hover{
   .content-container h2 {
     text-align: center;
   }
-.works h1 {
-  font-size: 30px;
-  padding: 20px;
-}
-.works img {
-  max-width: 90%;
-  margin-top: 30px;
-}
-.weather-image {
-  padding: 0px;
-}
-.dentist-image {
-  padding: 0px;
-}
-.contact-details h3,
-.contact-details p {
-  text-align: center;
-}
-.content-container img {
-  max-width: 90%;
-}
+  .works h1 {
+    font-size: 30px;
+    padding: 20px;
+  }
+  .works img {
+    max-width: 90%;
+    margin-top: 30px;
+  }
+  .weather-image {
+    padding: 0px;
+  }
+  .dentist-image {
+    padding: 0px;
+  }
+  .contact-details h3,
+  .contact-details p {
+    text-align: center;
+  }
+  .content-container img {
+    max-width: 90%;
+  }
 }
 @media (max-width: 350px) {
   .nav-links a {
