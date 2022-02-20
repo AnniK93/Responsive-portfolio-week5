@@ -41,13 +41,14 @@ container {
 }
 .hero {
   text-align: center;
-  padding: 160px 20px;
+  padding: 50px 20px;
   background: var(--secondary-color);
 }
 .hero p {
   font-size: 36px;
   font-weight: bold;
   font-family: var(--default-font-family);
+  padding-top: 20px;
 }
 
 .hero h1 {
@@ -62,10 +63,15 @@ container {
 
 .hero img {
   max-width: 300px;
-  border-radius: 500px 500px 500px 0px;
+  border-radius: 150px 0px 150px 0px;
   display: block;
   margin: 0 auto;
-  box-shadow: 20px 20px 20px #285f68;
+  margin-bottom: 0px;
+  box-shadow: 20px 20px 20px var(--branding-color);
+}
+
+.hero .mb-5 {
+  margin-bottom: 0px !important;
 }
 h3 {
   text-align: center;
@@ -88,7 +94,7 @@ h6 {
   font-family: var(--default-font-family);
   font-weight: bold;
   color: white;
-  margin: 30px 0px;
+  margin: 20px 0px;
 }
 
 .btn:hover {
@@ -140,9 +146,10 @@ h6 {
 }
 .content-container img {
   max-width: 300px;
-  border-radius: 10px;
+  border-radius: 150px 0px 150px 0px;
   display: block;
   margin: 0 auto;
+  box-shadow: 20px 20px 20px var(--branding-color);
 }
 
 /*Projects*/
