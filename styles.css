@@ -144,7 +144,7 @@ h6 {
   font-size: 16px;
   line-height: 30px;
 }
-.content-container img {
+.intro img {
   max-width: 300px;
   border-radius: 150px 0px 150px 0px;
   display: block;
@@ -152,6 +152,16 @@ h6 {
   box-shadow: 20px 20px 20px var(--branding-color);
 }
 
+.certificates img {
+  max-width: 300px;
+  display: block;
+  margin: 0 auto;
+  padding: 20px 10px;
+}
+
+.certificates h2 {
+  text-align: center;
+}
 /*Projects*/
 .works h1,
 h2,
