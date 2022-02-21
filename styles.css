@@ -152,6 +152,10 @@ h6 {
   box-shadow: 20px 20px 20px var(--branding-color);
 }
 
+.skills-logos img {
+  width: 50px;
+}
+
 .certificates img {
   max-width: 300px;
   display: block;
