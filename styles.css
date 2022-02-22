@@ -159,6 +159,12 @@ h6 {
 
 .skills-logos img {
   width: 50px;
+  margin: 10px;
+  transition: 0.05s all ease-in-out;
+}
+
+.skills-logos img:hover {
+  transform: scale(1.5);
 }
 
 .language-logos p {
@@ -171,6 +177,11 @@ h6 {
 
 .skills-languages img {
   max-width: 160px;
+  transition: 0.05s all ease-in-out;
+}
+
+.skills-languages img:hover {
+  transform: scale(1.5);
 }
 
 .certificates img {
@@ -178,6 +189,11 @@ h6 {
   display: block;
   margin: 0 auto;
   padding: 20px 10px;
+  transition: 0.05s all ease-in-out;
+}
+
+.certificates img:hover {
+  transform: scale(1.2);
 }
 
 .certificates h2 {
