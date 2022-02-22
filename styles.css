@@ -161,6 +161,18 @@ h6 {
   width: 50px;
 }
 
+.language-logos p {
+  font-size: 48px;
+}
+
+.skills-languages {
+  margin-top: 30px;
+}
+
+.skills-languages img {
+  max-width: 160px;
+}
+
 .certificates img {
   max-width: 300px;
   display: block;
@@ -366,6 +378,9 @@ footer a:hover {
   }
   .intro .col-lg-8 {
     padding-right: 20px;
+  }
+  .skills-languages img {
+    max-width: 200px;
   }
 }
 @media (max-width: 350px) {
