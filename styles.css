@@ -13,24 +13,73 @@ nav {
   max-width: 200px;
   max-height: 42px;
 }
-ul {
-  display: inline;
-  text-align: right;
-  padding: 0;
-  margin: 0;
+
+.active a {
+  color: var(--branding-color);
+  font-weight: bold;
 }
-.nav-links li {
-  display: inline;
-  margin-left: 10px;
-  line-height: 42px;
+.dropbtn {
+  background-color: white;
+  color: black;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
 }
-.nav-links a {
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropbtn a {
   color: black;
   text-decoration: none;
-  transition: all 100ms ease-in-out;
+  transition: all 30ms ease-in-out;
 }
-.nav-links a:hover,
-nav li.active a {
+
+.dropbtn a:hover {
+  text-decoration: none;
+  font-weight: bold;
+}
+.dropbtn a:hover {
+  color: black;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  transition: all 30ms ease-in-out;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {
+  background-color: white;
   color: var(--branding-color);
   font-weight: bold;
 }
@@ -120,6 +169,14 @@ h6 {
 }
 .project-description h2 {
   text-align: left;
+}
+
+.text-left {
+  background: var(--secondary-color);
+}
+
+hr {
+  margin-bottom: 50px;
 }
 
 /*About me page*/

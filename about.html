@@ -47,14 +47,26 @@
           class="logo d-block d-md-none"
           alt="AnnikaCodes logo"
         />
-        <ul class="nav-links">
-          <li><a href="/" title="Homepage">Home</a></li>
-          <li class="active">
+        <span class="nav-buttons">
+          <button class="dropbtn">
+            <a href="/" title="Homepage">Home</a>
+          </button>
+          <button class="dropbtn active">
             <a href="/about.html" title="About Annika">About</a>
-          </li>
-          <li><a href="/works.html" title="Annika's work">Projects</a></li>
-          <li><a href="/contact.html" title="Contact Annika">Contact</a></li>
-        </ul>
+          </button>
+          <div class="dropdown">
+            <button class="dropbtn">
+              <a href="/works.html" title="Annika's work">Projects</a>
+            </button>
+            <div class="dropdown-content">
+              <a href="#">Completed projects</a>
+              <a href="#">Works in progress</a>
+            </div>
+          </div>
+          <button class="dropbtn">
+            <a href="/contact.html" title="Contact Annika">Contact</a>
+          </button>
+        </span>
       </nav>
     </header>
     <div class="content-container container">
@@ -171,6 +183,7 @@
             />
           </a>
         </div>
+      </div>
 
       <footer>
         <div class="contact">
