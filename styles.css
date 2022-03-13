@@ -237,10 +237,6 @@ hr {
   transition: 0.05s all ease-in-out;
 }
 
-.skills-languages img:hover {
-  transform: scale(1.5);
-}
-
 .certificates img {
   max-width: 300px;
   display: block;
@@ -293,6 +289,12 @@ h3 {
 
 .library-image {
   padding: 91px 0px;
+}
+.weather-image {
+  padding: 108px 0px;
+}
+.dictionary-image {
+  padding: 3px 0px;
 }
 
 .contact-box h4 {
