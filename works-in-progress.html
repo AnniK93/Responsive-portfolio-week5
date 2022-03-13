@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta
       name="description"
-      content="Annika is a front-end developer based in Brighton, UK. Get in touch with her here."
+      content="Annika is a front-end developer based in Brighton, UK. You can have a look at her projects here."
     />
     <link
       rel="stylesheet"
@@ -32,7 +32,7 @@
       src="https://kit.fontawesome.com/e3ec2b914c.js"
       crossorigin="anonymous"
     ></script>
-    <title>Contact me</title>
+    <title>Projects</title>
   </head>
   <body>
     <header>
@@ -56,7 +56,7 @@
             <a href="/about.html" title="About Annika">About</a>
           </button>
           <div class="dropdown">
-            <button class="dropbtn">
+            <button class="dropbtn active">
               <a href="/works.html" title="Annika's work">Projects</a>
             </button>
             <div class="dropdown-content">
@@ -64,57 +64,44 @@
               <a href="./works-in-progress.html">Works in progress</a>
             </div>
           </div>
-          <button class="dropbtn active">
+          <button class="dropbtn">
             <a href="/contact.html" title="Contact Annika">Contact</a>
           </button>
         </span>
       </nav>
     </header>
-    <div class="content-container contact-details container">
-      <h1 class="mb-5">Let's get in touch!</h1>
-      <div class="row">
-        <div class="col-lg-6 details">
-          <h3>Email</h3>
-          <p>
-            <a href="mailto:annika@mail.com" title="Email Annika"
-              >annika@mail.com</a
-            >
-          </p>
-          <h3>Twitter</h3>
-          <p>
-            <a href="https://twitter.com/annikacodes" title="Annika Twitter"
-              >@annikacodes</a
-            >
-          </p>
-          <h3>Instagram</h3>
-          <p>
-            <a href="https://instagram.com/annikacodes" title="Annika Instagram"
-              >@annikacodes</a
-            >
-          </p>
-        </div>
+    <div class="works container">
+      <h1>Take a look at what I'm currently working on!</h1>
+
+      <div class="row mt-5">
         <div class="col-lg-6">
-          <div
-            class="tenor-gif-embed"
-            data-postid="16524534"
-            data-share-method="host"
-            data-aspect-ratio="1.00629"
-            data-width="300px"
-          >
-            <a
-              href="https://tenor.com/view/cat-typing-modern-times-laptop-black-cat-gif-16524534"
-              >Cat Typing GIF</a
-            >from <a href="https://tenor.com/search/cat-gifs">Cat GIFs</a>
-          </div>
-          <script
-            type="text/javascript"
-            async
-            src="https://tenor.com/embed.js"
-          ></script>
+          <img src="images/dentist.png" class="dentist-image" />
+          <h2>Dentist Homepage</h2>
+          <h3>Built with HTML and CSS</h3>
+        </div>
+        <hr class="divider d-block d-lg-none" />
+        <div class="col-lg-6">
+          <img src="images/library.png" class="library-image" />
+          <h2>Library App</h2>
+          <h3>Built with front-end and back-end languages</h3>
         </div>
       </div>
       <footer>
         <div class="contact">
+          <div class="contact-box justify-content-between d-none d-md-flex">
+            <div>
+              <h4>Work enquiry</h4>
+              <p class="text-muted">Let's work together</p>
+            </div>
+            <div class="contact-annika">
+              <a
+                href="contact.html"
+                class="btn btn-branding"
+                title="Contact Annika"
+                >Contact me</a
+              >
+            </div>
+          </div>
           <a href="mailto:annika@mail.com" title="Email Annika"
             >annika@mail.com</a
           >
