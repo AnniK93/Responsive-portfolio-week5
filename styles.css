@@ -5,6 +5,7 @@
   --secondary-color: #c5d6d9;
 }
 /*Navbar*/
+
 nav {
   display: inline;
   padding: 20px;
@@ -460,6 +461,13 @@ footer a:hover {
   }
   .skills-languages img {
     max-width: 200px;
+  }
+}
+
+@media (max-width: 420px) {
+  .dropbtn {
+    font-size: 12px;
+    padding: 10px;
   }
 }
 @media (max-width: 350px) {
