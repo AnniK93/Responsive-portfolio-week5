@@ -464,7 +464,7 @@ footer a:hover {
   }
 }
 
-@media (max-width: 420px) {
+@media (max-width: 450px) {
   .dropbtn {
     font-size: 12px;
     padding: 10px;
